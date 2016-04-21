@@ -27,7 +27,6 @@ module.exports = {
     // Import css from bootstrap
     if (options.importBootstrapCSS) {
       app.import(path.join(bootstrapPath, 'css/bootstrap.css'));
-      app.import(path.join(bootstrapPath, 'css/bootstrap.css.map'), {destDir: 'assets'});
     }
 
     if (options.importBootstrapTheme) {
